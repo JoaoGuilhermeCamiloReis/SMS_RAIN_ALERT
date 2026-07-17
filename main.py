@@ -13,7 +13,7 @@ url_forecast = "https://api.openweathermap.org/data/2.5/forecast"
 parameters = {
     "lat": -24.94528,
     "lon": -53.48139,
-    "cnt": 6,
+    "cnt": 5,
     "units": "metric",
     "lang": "pt_br",
     "appid": API_KEY
