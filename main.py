@@ -18,6 +18,7 @@ parameters = {
     "lang": "pt_br",
     "appid": API_KEY
 }
+
 #------------------- Requesting API Data -----------------
 try:
     response = requests.get(url=url_forecast, params=parameters)
