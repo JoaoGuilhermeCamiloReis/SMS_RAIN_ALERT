@@ -39,7 +39,15 @@ for hour_data in weather_data["list"]:
 if will_rain:
     client = Client(ACCOUNT_SID, AUTH_TOKEN)
     message = client.messages.create(
-        body="It's going to rain today. Bring an umbrella.",
+        body="It's going to RAIN today. Bring an umbrella.",
+        from_="+14472134114",
+        to="+5545999319098")
+    print(message.status)
+
+if not will_rain:
+    client = Client(ACCOUNT_SID, AUTH_TOKEN)
+    message = client.messages.create(
+        body="It's NOT going to rain today. Enjoy your day.",
         from_="+14472134114",
         to="+5545999319098")
     print(message.status)
