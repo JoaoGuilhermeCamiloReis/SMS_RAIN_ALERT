@@ -11,8 +11,8 @@ AUTH_TOKEN = os.environ.get("AUTH_TOKEN")
 url_forecast = "https://api.openweathermap.org/data/2.5/forecast"
 
 parameters = {
-    "lat": -24.94528,
-    "lon": -53.48139,
+    "lat": 39.0997,
+    "lon": -94.5783,
     "cnt": 4,
     "units": "metric",
     "lang": "pt_br",
